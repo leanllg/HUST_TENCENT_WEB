@@ -13,7 +13,7 @@
         - [维基百科－单向链表](https://zh.wikipedia.org/wiki/%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A8)
         - [极客学院－一步一步写算法（单向链表）](http://wiki.jikexueyuan.com/project/step-by-step-learning-algorithm/singly-linked-list.html)
     - 完成数据结构后，需要在 main 函数中演示单向链表功能。
-4. 在编程，使用git及其他软件时，可能会遇到很多问题，这时可以去 [stack overflow](https://stackoverflow.com/?tab=featured&newreg=e8fd042f1d3e4ce68516687c07c5add4)搜索或提问（一般会有相同的问题，常见搜索方法：复制错误提示的关键部分）
+4. 在编程，使用git及其他软件时，可能会遇到很多问题，这时可以去 [Stack Overflow](https://stackoverflow.com/?tab=featured&newreg=e8fd042f1d3e4ce68516687c07c5add4)搜索或提问（一般会有相同的问题，常见搜索方法：复制错误提示的关键部分）
 
 ## 额外说明 ##
 1. 这是最后一次布置与 C 语言相关的任务，任务的目的是希望让大家对数据结构和算法先有个简单的了解，虽然以后在 Web 组的学习中可能就不会再遇到，但是要记住**掌握数据结构和算法是一个优秀程序员的基本素养之一**。
