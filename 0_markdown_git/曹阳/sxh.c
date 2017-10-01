@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-    int num;
-    for(num = 100;num <= 999; num++)
+    for(int num = 100;num <= 999; num++)
     {
         int g,s,b;
         g = num%10;
