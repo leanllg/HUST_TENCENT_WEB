@@ -1,23 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define OVERFLOW 0
 struct LNode
 {
     int data;
     struct LNode * next;
 };
-typedef struct LNode LNode;
-typedef struct LNode * LinkList;
+typedef struct LNode LNode,* LinkList;
 void InitList(LinkList *L)
 {
     *L = (LinkList*)malloc(sizeof(struct LNode));
     (*L)->next=NULL;
-
-}void InsertList(LinkList  L,int j,int num)  //在第j个节点后插入新的节点，数据为data
+}
+int InsertList(LinkList  L,int j,int num)  //在第j个节点后插入新的节点，数据为data
 {
     int i;
-    LinkList  s = L;
-    LinkList tmp;
+    LinkList  s = L, tmp;
     for( i = 1;i<j;i++)
     {
         s = s->next;
@@ -35,16 +32,12 @@ void InitList(LinkList *L)
         return 0;
     }
 }
-void DeleteList(LinkList  L,int j) //删除第j个节点
+int DeleteList(LinkList  L,int j) //删除第j个节点
 {
     int i;
-    LinkList  s = L;
-    LinkList tmp;
+    LinkList  s = L,tmp;
     for(i = 2;i<j;i++)
-    {
         s = s->next;
-    }
-
     if(j<i || !(s->next))
     {
         printf("error");
