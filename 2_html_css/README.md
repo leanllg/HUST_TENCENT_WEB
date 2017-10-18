@@ -33,6 +33,7 @@
 1. 这次任务先学习 HTML 与 CSS，下次再学习 HTML5 与 CSS3。
 2. 建议各位开发的时候使用 Chrome / Firefox，任务检查也会基于这两款浏览器。
 3. 前端的集成开发环境也有很多，大家自己找一款合适的就好，IDE 推荐 [Webstorm](https://www.jetbrains.com/webstorm/)，编辑器推荐 [Atom](https://atom.io/) 或 [VSCODE](https://code.visualstudio.com/)。
+4. 时间为2周半
 
 ## 注意
 
