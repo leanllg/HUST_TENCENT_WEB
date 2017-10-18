@@ -30,7 +30,7 @@
 2. 建议各位开发的时候使用 Chrome / Firefox，任务检查也会基于这两款浏览器。
 3. 前端的集成开发环境也有很多，大家自己找一款合适的就好，IDE 推荐 [Webstorm](https://www.jetbrains.com/webstorm/)，编辑器推荐 [Atom](https://atom.io/) 或 [VSCODE](https://code.visualstudio.com/)。
 
-## 注意##
+## 注意
 
 1. 本学期所有前端任务除特殊表明外都要使用原生 CSS 与 JS
 
