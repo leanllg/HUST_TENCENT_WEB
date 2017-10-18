@@ -4,20 +4,20 @@
 
 1. 学习 HTML 与 CSS，以下部分必须学完：
 
-   - [W3School HTML 教程](http://www.w3school.com.cn/html/index.asp) （`HTML 简介`部分到 `HTML URL 编码`部分， HTML5与XHTML不需了解）
+   - [W3School HTML 教程](http://www.w3school.com.cn/html/index.asp) （`HTML 简介`部分到 `HTML URL 编码`部分， HTML5 与 XHTML 不需了解）
    - [W3School CSS 教程](http://www.w3school.com.cn/css/index.asp) （`CSS 基础教程` 部分到 `CSS 选择器` 部分）
-   - 以上两个教程，比较简陋，我建议对照其中的内容在 MDN 中查找相关的内容，大家可以得到更加详细的内容
+   - 以上两个教程，比较简陋，我建议对照其中的内容在 [MDN](https://developer.mozilla.org/zh-CN/docs/Web) 中查找相关的内容，大家可以得到更加详细的内容
    - [学习 CSS 布局](http://zh.learnlayout.com/toc.html) （重点，**仔细阅读**， 现在属性没有必要使用前缀）
 
 2. 用 `div` 完成基本的网站布局，具体要求如下：最上部有页眉，最下部有页脚，左边是导航栏，右边是主要内容（W3School 就是这样的布局风格）。具体部分不要求有内容填充，用背景色区分即可。时间充裕的情况下，考虑对不同屏幕大小的适配。（可以考虑不同的方法）
 
 3. 通过学习的知识，模仿网站 [谷歌首页](https://www.google.com/)（不要求功能即动态效果，只要求界面相识，实现的是未登陆时的界面）。
 
-4. 关于CSS的书籍推荐
+4. 关于 CSS 的书籍推荐
 
    - [CSS揭秘](https://www.amazon.cn/CSS%E6%8F%AD%E7%A7%98-Lea-Verou/dp/B01ET3FO86/ref=sr_1_1?ie=UTF8&qid=1508317511&sr=8-1&keywords=css%E6%8F%AD%E7%A7%98) 这本书是我觉得挺不错的一本适合进阶学习，增长见识的书
 
-     **对于 HTML 与 CSS 直接看[MDN](https://developer.mozilla.org/zh-CN/docs/Web)就够了**
+     **对于 HTML 与 CSS 直接看 [MDN](https://developer.mozilla.org/zh-CN/docs/Web) 就够了**
 
 5. 网站欣赏
 
