@@ -1,5 +1,9 @@
  #include <stdio.h>
  #include <stdlib.h>
+ struct s_list * insert_nodes(struct s_list * head,int n);
+ struct s_list * delete_nodes(struct s_list **headp,int n);
+ struct s_list * find_nodes_recursive(struct s_list *head,int n); 
+  
  struct s_list{
  	int data;
  	struct s_list *next;
@@ -60,6 +64,7 @@ struct s_list * insert_nodes(struct s_list * head,int n)
 	}
 	return current;
  } 
+ 
  struct s_list * delete_nodes(struct s_list **headp,int n)
  {
  	struct s_list * current=*headp,*prior=*headp;
