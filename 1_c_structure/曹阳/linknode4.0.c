@@ -6,19 +6,18 @@ struct LNode
     struct LNode * next;
 };
 typedef struct LNode LNode,* LinkList;
-void InitList(LinkList *L)
+void InitList(LinkList * L)
 {
-    *L = (LinkList*)malloc(sizeof(struct LNode));
+    *L = (LinkList)malloc(sizeof(LNode));
     (*L)->next=NULL;
 }
-int InsertList(LinkList  L,int j,int num)  //在第j个节点后插入新的节点，数据为data
+int InsertList(LinkList L,int j,int num)  //在第j个节点前插入新的节点，数据为data
 {
     int i;
+
     LinkList  s = L, tmp;
     for( i = 1;i<j;i++)
-    {
         s = s->next;
-    }
     if(j<i || !s )
     {
         printf("error");
@@ -32,11 +31,11 @@ int InsertList(LinkList  L,int j,int num)  //在第j个节点后插入新的节点，数据为da
         return 0;
     }
 }
-int DeleteList(LinkList  L,int j) //删除第j个节点
+int DeleteList(LinkList L,int j) //删除第j个节点
 {
     int i;
     LinkList  s = L,tmp;
-    for(i = 2;i<j;i++)
+    for(i = 1;i<j;i++)
         s = s->next;
     if(j<i || !(s->next))
     {
@@ -52,19 +51,19 @@ int DeleteList(LinkList  L,int j) //删除第j个节点
     }
 
 }
-int ResearchList(LinkList * L,int j,int * num)
+int ResearchList(LinkList L,int j,int * num)
 {
     int i;
-    LinkList * s = L;
+    LinkList s = L->next;
     for(i = 1;i<j;i++)
-        *s = (*s)->next;
-    if(j<i || !(*s)->data)
+        s = s->next;
+    if(j<i || !s->data)
     {
         printf("error");
         return 0;
     }
     else{
-        *num = (*s)->data;
+        *num = s->data;
         return 0;
     }
 }
@@ -73,7 +72,6 @@ int main(void)
     int length;
     LinkList S;
     InitList(&S);
-    S->data=0;
     printf("输入一个数字,程序将创建一个长度为这个数字的链表\n并在其中按顺序储存自然数");
     printf("然后在屏幕上打印这个链表的数据\n");
     scanf("%d",&length);
@@ -81,7 +79,7 @@ int main(void)
     {
         InsertList(S,1,i);
     }
-    LinkList tmp = S;
+    LinkList tmp = S->next;
     for(int i = 0;i<length;i++)
     {
         printf("%d ",tmp->data);
@@ -91,8 +89,8 @@ int main(void)
            "之后程序再次打印这个链表\n");
     int num,e;
     scanf("%d %d",&num,&e);
-    InsertList(S,num-1,e);
-    tmp = S;
+    InsertList(S,num,e);
+    tmp = S->next;
     for(int i = 0;i<length+1;i++)
     {
         printf("%d ",tmp->data);
@@ -101,7 +99,7 @@ int main(void)
     printf("\n输入一个数字，程序将删除这个位置并再次打印这个链表\n");
     scanf("%d",&num);
     DeleteList(S,num);
-    tmp = S;
+    tmp = S->next;
     for(int i = 0;i<length;i++)
     {
         printf("%d ",tmp->data);
@@ -110,7 +108,7 @@ int main(void)
     printf("\n输入一个数字,程序将查找该位置数据并打印\n");
     scanf("%d",&num);
     int * w;
-    ResearchList(&S,num,w);
+    ResearchList(S,num,w);
     printf("%d",*w);
 
     return 0;
