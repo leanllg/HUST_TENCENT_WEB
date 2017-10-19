@@ -1,0 +1,33 @@
+// ConsoleApplication6.cpp: 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+
+#include <stdlib.h>
+#include <stdio.h>
+
+void select_sort(int a[], int n) {
+	for (int i = 0; i < n - 1; i++) {
+		int j = i;
+		int min = a[j];
+		for (int k = i; k < n; k++) {
+			if (a[k] < min) {
+				j = k;
+				min = a[k];
+			}
+		}
+		int t = a[i];
+		a[i] = a[j];
+		a[j] = t;
+	}
+}
+
+int main() {
+	int a[7] = { 1, 5, 8, 0, 2, 9 ,3 };
+	select_sort(a, 7);
+	for (int i = 0; i < 7; i++) {
+		printf("%d ", a[i]);
+	}
+	printf("\n");
+	getchar();
+}
