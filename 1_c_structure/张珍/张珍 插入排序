@@ -1,0 +1,37 @@
+// C8c.cpp: 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+
+
+void InsertionSort(int*num, int n)
+{
+	int i = 0;
+	int j = 0;
+	int tmp = 0;
+	for (i = 1; i < n; i++)
+	{
+		tmp = num[i];
+		j = i - 1;
+		while (j >= 0 && tmp < num[j])
+		{
+			num[j + 1] = num[j];
+			j--;
+		}
+		num[j + 1] = tmp;
+	}
+}
+int main()
+{
+	int i = 0;
+	int num[8] = { 9,3,4,2,6,7,5,1 };
+	InsertionSort(num, 8);
+	for (i = 0; i < 8; i++)
+	{
+		printf("%d", num[i]);
+	}
+	getchar();
+}
+
+
+
