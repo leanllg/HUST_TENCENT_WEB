@@ -33,15 +33,10 @@
 1. 这次任务先学习 HTML 与 CSS，下次再学习 HTML5 与 CSS3。
 2. 建议各位开发的时候使用 Chrome / Firefox，任务检查也会基于这两款浏览器。
 3. 前端的集成开发环境也有很多，大家自己找一款合适的就好，IDE 推荐 [Webstorm](https://www.jetbrains.com/webstorm/)，编辑器推荐 [Atom](https://atom.io/) 或 [VSCODE](https://code.visualstudio.com/)。
-<<<<<<< HEAD
 4. 格式要求：
    - HTML 注意缩进，闭合标签等等
    - [CSS code style](https://github.com/Zhangjd/css-style-guide)
 5. 时间要求：3周
-=======
-4. 时间为2周半
->>>>>>> f160f65abe4bfff8619ac9302a87aee6a9b98293
-
 ## 注意
 
 1. 本学期所有前端任务除特殊表明外都要使用原生 CSS 与 JS
