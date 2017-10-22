@@ -11,19 +11,24 @@
 
 2. 用 `div` 完成基本的网站布局，具体要求如下：最上部有页眉，最下部有页脚，左边是导航栏，右边是主要内容（W3School 就是这样的布局风格）。具体部分不要求有内容填充，用背景色区分即可。时间充裕的情况下，考虑对不同屏幕大小的适配。（可以考虑不同的方法）
 
-   **任务实践部分**
+   **任务实践部分**​
 
 3. 通过学习的知识，模仿网站 [谷歌首页](https://www.google.com/)（不要求功能即动态效果，只要求界面相识，实现的是未登陆时的界面）。
 
    **任务实践部分**
 
-4. 关于 CSS 的书籍推荐
+4. 格式要求：
+
+   - HTML 注意缩进，闭合标签等等
+   - [CSS code style](https://github.com/Zhangjd/css-style-guide)
+
+5. 关于 CSS 的书籍推荐
 
    - [CSS揭秘](https://www.amazon.cn/CSS%E6%8F%AD%E7%A7%98-Lea-Verou/dp/B01ET3FO86/ref=sr_1_1?ie=UTF8&qid=1508317511&sr=8-1&keywords=css%E6%8F%AD%E7%A7%98) 这本书是我觉得挺不错的一本适合进阶学习，增长见识的书
 
      **对于 HTML 与 CSS 直接看 [MDN](https://developer.mozilla.org/zh-CN/docs/Web) 就够了**
 
-5. 网站欣赏
+6. 网站欣赏
 
    - [Switch](http://www.nintendo.com.hk/hardware/switch/) （响应式设计做得很不错的网站）
    - 有想推荐的可以在群里面提出
@@ -33,8 +38,7 @@
 1. 这次任务先学习 HTML 与 CSS，下次再学习 HTML5 与 CSS3。
 2. 建议各位开发的时候使用 Chrome / Firefox，任务检查也会基于这两款浏览器。
 3. 前端的集成开发环境也有很多，大家自己找一款合适的就好，IDE 推荐 [Webstorm](https://www.jetbrains.com/webstorm/)，编辑器推荐 [Atom](https://atom.io/) 或 [VSCODE](https://code.visualstudio.com/)。
-4. 时间为2周半
-
+4. 时间要求：2周半
 ## 注意
 
 1. 本学期所有前端任务除特殊表明外都要使用原生 CSS 与 JS
