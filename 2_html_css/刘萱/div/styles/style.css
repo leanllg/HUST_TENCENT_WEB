@@ -1,0 +1,26 @@
+		#header {
+			background-color: pink;
+			color: white;
+			text-align: center;
+			padding: 50px;
+		}
+		#nav {
+			line-height: 30px;
+			background-color: #E1B6E1;
+			height: 710px;
+			width: 150px;
+			float: left;
+			padding: 5px;
+		}
+		#section {
+			width: 350px;
+			float: left;
+			padding: 10px;
+		}
+		#footer {
+			background-color: pink;
+			color: white;
+			clear: both;
+			text-align: center;
+			padding: 20px;
+		}
